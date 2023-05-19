@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Lobster&family=Teko:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(167, 167, 167);
+    width: 20%;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 25%;
+    width: 20%;
+}
+
+.sidebar nav ul {
+    padding: 25%;
+    width: 20%;
+}
+
+.sidebar nav ul li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: aqua; */
+    width: 120vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.info {
+    /* background-color: aquamarine; */
+    height: 57vh;
+    margin: 144px 56px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img {
+    height: 43vh;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 55px;
+}
+
+.name {
+    font-size: 50px;
+
+}
+
+.about {
+    font-size: 40px;
+}
+
+.moreabout {
+    font-size: 29px;
+    margin-top: 10px;
+}
+
+.button {
+    padding: 32px;
+}
+
+.btn  {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 0 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.contactform h1 {
+    text-align: center;
+}
+
+.contactform {
+    padding: 144px 34px;
+    margin: 0 88px;
+}
+
+.contactform div {
+    padding: 10px 0;
+
+}
+.blogitem{
+    margin: 20px;
+}
+.blogcontainer{
+    margin: 0px 88px;
+}
+.blogcontainer h1{
+    margin: 23px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.blogcontainer p{
+    font-family: 'Teko', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+.blogcontainer h2{
+    font-family: 'Teko', sans-serif;
+}
+.infocontainer{
+    margin: 40px 88px;
+}
+.infocontainer h1{
+    margin: 23px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.infocontainer p{
+    font-family: 'Lobster', cursive;
+    margin: 23px;
+}
+.infocontainer h2{
+    font-family: 'Teko', sans-serif;
+    margin: 23px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundred{
+    width: 265px;
+}
+.fifty{
+    width: 125px;
+}
+.thirty{
+    width: 75px;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 156px;
+}
+.sidebargo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+@media (max-width: 1016px ) {
+    .devpic{
+        display: none;
+    }
+    .infocontainer , .blogcontainer , .contactform{
+        margin: 50px 8px;
+    }
+}
